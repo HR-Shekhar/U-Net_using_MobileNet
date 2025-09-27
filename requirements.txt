@@ -1,0 +1,10 @@
+torch==2.2.2                 # PyTorch version compatible with torchvision pairing
+torchvision==0.17.2          # Matching torchvision for that PyTorch
+numpy==1.26.4                 # A stable NumPy < 2 that works with tensorflow / mediapipe / facenet if you reuse environment
+opencv-python                 # For image I/O / display / inference
+albumentations==1.2.1        # Augmentations (works well with this NumPy version)
+segmentation-models-pytorch==0.3.3   # Stable version, supports many encoders & pretrained weights :contentReference[oaicite:0]{index=0}
+efficientnet-pytorch          # Optional, for extra encoder backbones
+matplotlib                    # For plotting (loss curves, masks)
+tqdm                          # Progress bars
+tensorboard                   # Logging / visualization
